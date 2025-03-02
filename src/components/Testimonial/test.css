@@ -1,0 +1,65 @@
+.testimonials-section {
+   padding: 80px 0;
+ }
+ 
+ .testimonial-slider {
+   position: relative;
+   overflow: hidden;
+   margin-top: 40px;
+ }
+ 
+ .testimonial-card {
+   background-color: rgba(255, 255, 255, 0.05);
+   border-radius: 8px;
+   padding: 24px;
+   margin: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   height: 100%;
+ }
+ 
+ .testimonial-header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 16px;
+ }
+ 
+ .testimonial-avatar {
+   width: 48px;
+   height: 48px;
+   border-radius: 50%;
+   object-fit: cover;
+ }
+ 
+ .testimonial-name {
+   margin-left: 16px;
+ }
+ 
+ .testimonial-name h4 {
+   font-weight: 700;
+   margin: 0;
+ }
+ 
+ .testimonial-text {
+   color: #cbd5e0;
+   line-height: 1.6;
+ }
+ 
+ .tns-outer {
+   position: relative;
+ }
+ 
+ /* Tiny Slider Customization */
+ .tns-controls button {
+   background-color: rgba(66, 153, 225, 0.7);
+   border: none;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   color: white;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .tns-controls button:hover {
+   background-color: rgba(66, 153, 225, 1);
+ }

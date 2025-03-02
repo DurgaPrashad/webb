@@ -1,0 +1,59 @@
+.navigation {
+   background-color: rgba(0, 0, 0, 0.4); /* equivalent to bg-black bg-opacity-40 */
+   position: fixed; /* equivalent to fixed */
+   width: 100%; /* equivalent to w-full */
+   z-index: 50; /* equivalent to z-50 */
+ }
+ 
+ .container {
+   max-width:100vw;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 1.5rem; /* equivalent to px-6 */
+   padding-right: 1.5rem; /* equivalent to px-6 */
+   padding-top: 1rem; /* equivalent to py-4 */
+   padding-bottom: 1rem; /* equivalent to py-4 */
+ }
+ 
+ .nav-content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .logo-container {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .logo {
+   height: 2rem; /* equivalent to h-8 */
+   width: 2rem; /* equivalent to w-8 */
+ }
+ 
+ .brand-name {
+   font-size: 1.5rem; /* equivalent to text-2xl */
+   font-weight: bold; /* equivalent to font-bold */
+   color: #1e3a8a; /* equivalent to blue-glow */
+ }
+ 
+ .nav-links {
+   display: none; /* equivalent to hidden */
+ }
+ 
+ @media (min-width: 768px) {
+   .nav-links {
+     display: flex; /* equivalent to md:flex */
+     gap: 2rem; /* equivalent to space-x-8 */
+   }
+ }
+ 
+ .nav-link {
+   color: white;
+   text-decoration: none;
+   transition: color 0.3s; /* equivalent to transition */
+ }
+ 
+ .nav-link:hover {
+   color: #3b82f6; /* equivalent to hover:text-blue-400 */
+ }

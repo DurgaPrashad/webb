@@ -1,0 +1,50 @@
+.services-section {
+   padding-top: 5rem; /* equivalent to py-20 */
+   padding-bottom: 5rem; /* equivalent to py-20 */
+ }
+ 
+ .container {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 1.5rem; /* equivalent to px-6 */
+   padding-right: 1.5rem; /* equivalent to px-6 */
+ }
+ 
+ .services-title {
+   font-size: 1.875rem; /* equivalent to text-3xl */
+   font-weight: bold; /* equivalent to font-bold */
+   text-align: center; /* equivalent to text-center */
+   margin-bottom: 4rem; /* equivalent to mb-16 */
+   color: #1e3a8a; /* equivalent to blue-glow */
+ }
+ 
+ .services-grid {
+   display: grid;
+   grid-template-columns: 1fr; /* equivalent to grid-cols-1 */
+   gap: 2rem; /* equivalent to gap-8 */
+ }
+ 
+ @media (min-width: 768px) {
+   .services-grid {
+     grid-template-columns: repeat(3, 1fr); /* equivalent to md:grid-cols-3 */
+   }
+ }
+ 
+ .service-card {
+   background-color: rgba(0, 0, 0, 0.5); /* equivalent to bg-black bg-opacity-50 */
+   padding: 2rem; /* equivalent to p-8 */
+   border-radius: 0.5rem; /* equivalent to rounded-lg */
+   border: 2px solid #1e3a8a; /* equivalent to blue-border-glow */
+ }
+ 
+ .service-title {
+   font-size: 1.25rem; /* equivalent to text-xl */
+   font-weight: bold; /* equivalent to font-bold */
+   margin-bottom: 1rem; /* equivalent to mb-4 */
+   color: #3b82f6; /* equivalent to text-blue-400 */
+ }
+ 
+ .service-description {
+   color: #d1d5db; /* equivalent to text-gray-300 */
+ }
